@@ -18,7 +18,7 @@ class RmAPI:
             'Authorization': self.authorization
             }
 
-            fullUrl = self.url + f"$CODCOLIGADA=3;DT_INICIO_D={dtIni};DT_FIM_D={dtFim}"
+            fullUrl = self.url + f"$CODCOLIGADA=1;DT_INICIO_D={dtIni};DT_FIM_D={dtFim}"
 
             self.logger.info(f"URL Criada: {fullUrl}")
 
